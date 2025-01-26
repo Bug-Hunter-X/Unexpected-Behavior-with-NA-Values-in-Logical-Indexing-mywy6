@@ -1,0 +1,3 @@
+This repository demonstrates a common yet subtle error in R programming related to handling NA (Not Available) values within logical indexing. The `bug.R` file showcases the unexpected behavior, where a seemingly correct logical index does not produce the expected subset of the vector.  The `bugSolution.R` file presents a solution using `complete.cases()` to appropriately handle rows with missing data in data frames, or using `!is.na()` carefully in vector operations.
+
+This is a helpful example for understanding how NA values affect logical indexing and avoiding common pitfalls in data manipulation and analysis.
